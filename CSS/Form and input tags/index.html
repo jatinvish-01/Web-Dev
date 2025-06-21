@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jee - Examination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Form for jee Examination  </h1>
+    <form action="post">
+        <div>
+            <label for="username"> Enter Your Username</label>
+            <input type="text" id="username" name="username" placeholder = "Enter Your Username">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value = "Male">
+            <label for="male">Male</label>    <!-- name same hai dono main isliye kyuki dono gender main se koi ek select hoga  -->
+            <input type="radio" id="female" name="gender" value = "Female">
+            <label for="female">Female</label>
+        </div> <br>   <br>  <br> 
+
+        <div>
+            <input type="checkbox" id="class" name ="class" value="yes">
+            <label for ="passed"> you passed 12th class</label> <br> <br> 
+
+            <input type="checkbox" id="class" name ="class" value="yes">
+            <label for ="passed"> you are under 12th class</label>
+        </div>
+
+        <div>
+            <textarea name="comment" id=""></textarea>
+        </div>
+        
+        <div>
+            <select name = "fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
