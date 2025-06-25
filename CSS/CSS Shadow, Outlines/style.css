@@ -1,0 +1,9 @@
+.box{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 34px;
+    box-shadow: 5px 15px 5px #c67a0f;
+}
+.text-shadow{
+    text-shadow: 5px 5px 5px #2fa5a7;
+}
