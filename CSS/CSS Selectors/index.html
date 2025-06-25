@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Class Selector (.)*/
+        .red{
+            background-color: red;
+        }
+
+        /* Id Selector (#) */   
+        #pink{
+            background-color: pink;
+        }
+
+        /* Child Selector (>) div ke para main changes krni h 
+        one imp point is div ka direct child honi chahiye*/
+        div > p{
+            background-color: yellow;
+            color: chartreuse;
+        }
+
+        /* Descendant selector (space) div ke andar para kisi bhi tag m ho...
+        to usme changes kr dega*/
+        div p {
+            background-color: rgb(95, 95, 168);
+            color: coral;
+        }
+
+        /* Universal Selector (*) ye sare element ko saath m target krta hai */
+        *{
+            margin: 10px;
+            padding: 5px;
+        }
+
+        /* Pseudo Selector (eg. a:hover, a:active, a:visited, a:link) */
+        a:visited{
+            color: rgb(117, 195, 0);
+        }
+
+        /* active: means click krne pe bg color show krna */
+        a:active{         
+           background-color: salmon; 
+        }
+        
+        /* link: means link pe click krne se pehle ka color kya rahega */
+        a:link{
+            color:green ;
+        }
+
+        /* hover: means ki uspe hover krne pe color show krna */
+        a:hover{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com">Go to Google</a>
+    <div>
+        <article>
+            <p> i am a para inside article</p>
+        </article>
+    </div>
+    
+    <div class="red">
+        i enjoying sigma coding
+        
+        <p> i am a para inside div</p>
+    </div>
+
+    <div id="pink">
+        cascading style sheet
+    </div>
+</body>
+</html>
